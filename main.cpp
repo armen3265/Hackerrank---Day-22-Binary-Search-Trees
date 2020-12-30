@@ -36,7 +36,7 @@ class Solution{
         }
     
         
-		int getHeight(Node* root){
+	int getHeight(Node* root){
           if(!root)
           {
               return -1;
@@ -48,9 +48,7 @@ class Solution{
               return rightHeight;
           } else{
             return leftHeight;
-          }
-          
-            
+          } 
         }
 
 }; //End of Solution
